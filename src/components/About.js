@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles.css';
+import Card from './Card.js';
 import BrianImage from '../assets/Brian.PNG'; // Adjust paths as needed
 import HarrisImage from '../assets/Harris.jpg';
 import ClaraImage from '../assets/Clara.jpeg';
@@ -17,41 +18,11 @@ const About = () => {
             <h3>Why use a washing machine when you can do them by hand? Becuase it makes your job way easier! Leveraging AWS Lambda Powertools we can use the cat-a-log function to invoke and format logs into AWS Embedded Metric Format. By publishing these logs to AWS Cloudwatch, we are able to provide engineers with automatic metric visulaization to make the process of debugging logs much more efficient.</h3>
             <h1>Meet the Team</h1>
             <ul className='teamlist'>
-                <li className='card' id='Brian'>
-                    <div className='image-container'>
-                        <img src={BrianImage} alt="Brian Anderson" />
-                    </div>
-                    <p className='name'>Brian Anderson</p>
-                    <p className='role'>Software Developer</p>
-                </li>
-                <li className='card' id='Harris'>
-                    <div className='image-container'>
-                        <img src={HarrisImage} alt="Brian Anderson" />
-                    </div>
-                    <p className='name'>Harris Awan</p>
-                    <p className='role'>Software Developer</p>
-                </li>
-                <li className='card' id='Clara'>
-                    <div className='image-container'>
-                        <img src={ClaraImage} alt="Brian Anderson" />
-                    </div>
-                    <p className='name'>Clara Regula</p>
-                    <p className='role'>Software Developer</p>
-                </li>
-                <li className='card' id='Curran'>
-                    <div className='image-container'>
-                        <img src={CurranImage} alt="Curran" />
-                    </div>
-                    <p className='name'>Curran Lee</p>
-                    <p className='role'>Software Developer</p>
-                </li>
-                <li className='card' id='Jacob'>
-                    <div className='image-container'>
-                        <img src={JacobImage} alt="Jacob" />
-                    </div>
-                    <p className='name'>Jacob Alexander</p>
-                    <p className='role'>Software Developer</p>
-                </li>
+                <Card image={BrianImage} name='Brian Anderson' text={['github', 'linkedin']} />
+                <Card image={HarrisImage} name='Harris Awan' text={['http://www.github.com/HarrAwa', 'http://www.linkedin.com/in/harrawan123/']} />
+                <Card image={ClaraImage} name='Clara Regula' text={['github', 'linkedin']} />
+                <Card image={CurranImage} name='Curran Lee' text={['github', 'linkedin']} />
+                <Card image={JacobImage} name='Jacob Anderson' text={['github', 'linkedin']} />
             </ul>
         </div>
     )
