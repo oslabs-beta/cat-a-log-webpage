@@ -10,7 +10,7 @@ const Home = () => {
             <h1>EMF log structuring made easy.</h1>
             <h3>Send structured logs and custom metrics from your EC2 or Lambda instance directly to AWS Cloudwatch.</h3>
             <h1>Simple. Secure. Efficient.</h1>
-            <h3>Cat-A-Log handles the frustrating parts of EMF format logging so you don't have to.</h3>
+            <h3>This npm package helps you integrate AWS CloudWatch with AWS Embedded Metric Format (EMF) Logs and publish them to Cloudwatch using AWS Lambda Powertools. EMF formatting will allow for chosen metrics to be automatically visualized in Cloudwatch metrics for simpler log debugging..</h3>
             <pre className="code">
                 npm install cat-a-log
             </pre>

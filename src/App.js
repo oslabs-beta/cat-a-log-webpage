@@ -12,16 +12,19 @@ function App() {
     return (
       <Router>
         <nav className="navbar">
-          <img src={catlogo} alt="Cat logo" className="navbar-logo"/>
-          <ul className="nav-list">
-            <li id='title'>Cat-A-Log</li>
-            <li><br></br></li>
-            <li className="menu-item"><Link to="/">Home</Link></li>
-            <li className="menu-item"><Link to="https://www.npmjs.com/package/cat-a-logs?activeTab=readme">Downloads</Link></li>
-            <li className="menu-item"><Link to="/about">About</Link></li>
-            <li className="menu-item"><Link to="/docs">Docs</Link></li>
-          </ul>
-        </nav>
+  <div className="navbar-left">
+    <img src={catlogo} alt="Cat logo" className="navbar-logo"/>
+    <ul className="nav-list">
+      <li id='title'>Cat-A-Log</li>
+    </ul>
+  </div>
+  <ul className="nav-list nav-list-center">
+    <li className="menu-item"><Link to="/">Home</Link></li>
+    <li className="menu-item"><Link to="https://www.npmjs.com/package/cat-a-logs?activeTab=readme">Downloads</Link></li>
+    <li className="menu-item"><Link to="/about">About</Link></li>
+    <li className="menu-item"><Link to="https://github.com/oslabs-beta/cat-a-log?tab=readme-ov-file#why-use-cat-a-log">Docs</Link></li>
+  </ul>
+</nav>
   
         <Routes>
           <Route path="/" element={<Home />} />
