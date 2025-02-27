@@ -28,7 +28,7 @@ function App() {
   
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/cat-a-log-webpage" element={<Home />} />
+          {/* <Route path="/cat-a-log-webpage" element={<Home />} /> */}
           <Route path="/about" element={<About />} />
           <Route path="/docs" element={<Docs />} />
           <Route path="*" element={<NotFound />} />
