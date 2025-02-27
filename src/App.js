@@ -20,7 +20,7 @@ function App() {
   </div>
   <ul className="nav-list nav-list-center">
     <li className="menu-item"><Link to="/">Home</Link></li>
-    <li className="menu-item"><Link to="https://www.npmjs.com/package/cat-a-logs?activeTab=readme">Downloads</Link></li>
+    <li className="menu-item"><Link to="https://www.npmjs.com/package/cat-a-logs?activeTab=readme">Installer</Link></li>
     <li className="menu-item"><Link to="/about">About</Link></li>
     <li className="menu-item"><Link to="https://github.com/oslabs-beta/cat-a-log?tab=readme-ov-file#why-use-cat-a-log">Docs</Link></li>
   </ul>

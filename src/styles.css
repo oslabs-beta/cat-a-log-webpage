@@ -9,7 +9,7 @@ body {
   
   
   h1 {
-    font-family: "Tiny5", serif;
+    font-family: sans-serif;
     color: rgb(122, 114, 231);
     text-align: center;
     padding-top: 8%;
@@ -24,7 +24,7 @@ body {
   }
 
   .code {
-    font-family: "Tiny5", serif;
+    font-family: sans-serif;
     color: white;
     text-align: center;
     text-shadow: 10px 10px 15px rgb(55, 35, 92);
