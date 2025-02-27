@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles.css';
-import catlogo from '../assets/Catalog_art.png';
+import catlogo from '../assets/Catalog_art_02.png';
 
 
 const Home = () => {
