@@ -5,7 +5,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Docs from './components/Docs';
 import NotFound from './components/NotFound';
-import catlogo from './assets/Catalog_art.png';
+import catlogo from './assets/Catalog_art_02.png';
 
 function App() {
     console.log("app is rendering");
