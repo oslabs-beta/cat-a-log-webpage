@@ -13,9 +13,9 @@ const About = () => {
         <div className='about'>
             <br></br>
             <h1>What is Cat-A-Log?</h1>
-            <h3>Cat-A-Log is an npm package designed to send custom logs from your EC2 or Lambda instance in AWS to AWS Cloudwatch.</h3>
+            <h3>Cat-A-Log is an npm package designed to send custom metrics from your EC2 (in development) or Lambda instance to Cloudwatch Metrics.</h3>
             <h1>Why Use Cat-A-Log?</h1>
-            <h3>Why use a washing machine when you can do them by hand? Becuase it makes your job way easier! Leveraging AWS Lambda Powertools we can use the cat-a-log function to invoke and format logs into AWS Embedded Metric Format. By publishing these logs to AWS Cloudwatch, we are able to provide engineers with automatic metric visulaization to make the process of debugging logs much more efficient.</h3>
+            <h3>Why use a washing machine when you can do wash by hand? Because it makes your job way easier! Leveraging CloudWatch EMF (Embedded Metric Format) via Cat-A-Log function formats logs into JSON schema that supports EMF. Cloudwatch automatically recognizes EMF automatically pulling your custom metrics for you populating them to CloudWatch Metrics giving you access to all the observability features available within CloudWatch.</h3>
             <h1>Meet the Team</h1>
             <ul className='teamlist'>
                 <Card image={BrianImage} name='Brian Anderson' text={['github', 'linkedin']} />
