@@ -42,12 +42,17 @@ body {
 
   #title {
     color: rgb(158, 152, 236);
-    font-family: "Tiny5", serif;
+    font-family:  sans-serif;
+    text-shadow: 2px 2px 5px rgb(158, 152, 236);
     font-weight: 300;
     font-style: normal;
     font-size: 50px;
   }
 
+  .navbar-logo {
+    height: 70px; /* Adjust the height of the logo */
+    margin-right: 15px; /* Add space between the logo and the nav items */
+}
   .navbar {
     display: flex;
     align-items: center; /* Vertically center the logo and nav-list */
@@ -161,11 +166,6 @@ body {
     height: 120%;
     object-fit: cover; /* Ensures the image covers the square without distortion */
     object-position: center; /* Centers the image within the square */
-}
-
-.navbar-logo {
-    height: 40px; /* Adjust the height of the logo */
-    margin-right: 15px; /* Add space between the logo and the nav items */
 }
 
 .art {
