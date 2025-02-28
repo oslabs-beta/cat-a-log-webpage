@@ -7,10 +7,10 @@ const Home = () => {
     return (
         <div className='home'>
             <br></br>
-            <h1>Centralized aggregation & observability of your Key Performance Indicators made easy.</h1>
+            <h1>Centralized aggregation & observability of your KPIs made easy.</h1>
             <h3>Send custom metrics in structured logs from your Lambda instances directly to AWS Cloudwatch.</h3>
             <h1>Simple. Secure. Efficient.</h1>
-            <h3>Cat-A-Log helps you leverage CloudWatch Embedded Metric Format (EMF) to automatically populate your businesses's KPIs from your logs to Cloudwatch Metrics.</h3>
+            <h3>Cat-A-Log helps you leverage CloudWatch Embedded Metric Format (EMF) to automatically populate your business's KPIs from your logs to Cloudwatch Metrics.</h3>
             <pre className="code">
                 npm install cat-a-logs
             </pre>
