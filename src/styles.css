@@ -43,10 +43,10 @@ body {
   #title {
     color: rgb(158, 152, 236);
     font-family:  sans-serif;
-    text-shadow: 3px 3px 5px rgb(158, 152, 236);
+    text-shadow: 2px 2px 5px rgb(158, 152, 236);
     font-weight: 300;
     font-style: normal;
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .navbar {
